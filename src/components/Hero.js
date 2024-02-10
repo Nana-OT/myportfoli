@@ -11,12 +11,12 @@ export default function Hero() {
   return (
     <div>
       <Container>
-      <Row style={{marginTop: 55}}>
+      <Row style={{marginTop: 90, color: '#000080'}}>
         <Col>
           <div>
             Hi!<br/>
-            <h5>I'm Osei Tutu Karikari,
-            a Bsc Computer Science Graduate</h5>
+            <h5><b>I'm Osei Tutu Karikari,
+            a Bsc Computer Science Graduate</b></h5>
             <p>based in Accra, Ghana.</p>
           </div>
         </Col>

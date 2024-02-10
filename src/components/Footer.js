@@ -9,9 +9,9 @@ import wave from '../assets/footer.png'
 
 export default function Footer() {
   return (
-    <div style={{marginTop: 250}}>
-        <h6 style={{textAlign: 'center'}}>Contact Me</h6>
-        <Container>
+    <div style={{marginTop: 180}}>
+        <h6 style={{textAlign: 'center'}}><span style={{color: '#000080'}}><b>Contact</b></span><span style={{color: '#032174'}}> Me</span></h6>
+        <Container style={{marginTop: '25px', marginBottom: '5px', justifyContent: 'center'}}>
             <Row>
                 <Col>
                     <a href='https://github.com/Nana-OT'>

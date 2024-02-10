@@ -12,79 +12,59 @@ import Container from 'react-bootstrap/Container';
 
 export default function Skills() {
   return (
-    <div style={{marginTop: 65}}>
-    <h6 style={{textAlign: 'center'}}>Skills</h6>
-    <Container style={{marginTop: 30}}>
-    <Row>
-      <Col>
-      <Card style={{ width: '10rem' , height: '5rem'}}>
-      <Card.Img variant="top" src={WebDev} />
-      <Card.Body>
-        <Card.Title> <span style={{fontSize: '14px', fontWeight: 'bold'}}>Front-End Developer</span></Card.Title>
-        <Card.Text><span style={{fontSize: '11px'}}>
-         (HTML, CSS, Javascript, Bootsrap, React)
-         </span></Card.Text>
-      </Card.Body>
-    </Card>
-      </Col>
-      <Col>
-      <Card style={{ width: '10rem' , height: '5rem'}}>
-      <Card.Img variant="top" src={Graphic} />
-      <Card.Body>
-        <Card.Title><span style={{fontSize: '14px', fontWeight: 'bold'}}>Graphic Design</span></Card.Title>
-        <Card.Text><span style={{fontSize: '11px'}}>
-         (Photoshop, Canva)
-         </span></Card.Text>
-      </Card.Body>
-    </Card>
-      </Col>
-    </Row>
-    </Container>
-    <div>
-      <Container style={{marginTop: 250}}>
-        <Row>
-          <Col>
-            <Card style={{ width: '10rem' , height: '5rem'}}>
-          <Card.Img variant="top" src={UI} />
-          <Card.Body>
-            <Card.Title> <span style={{fontSize: '14px', fontWeight: 'bold'}}>UI/UX Design</span></Card.Title>
-            <Card.Text><span style={{fontSize: '11px'}}>
-            (Figma)
-            </span></Card.Text>
-          </Card.Body>
-        </Card>
-          </Col>
-          <Col>
-          <Card style={{ width: '10rem' , height: '5rem'}}>
-          <Card.Img variant="top" src={DB} />
-          <Card.Body>
-            <Card.Title><span style={{fontSize: '14px', fontWeight: 'bold'}}>Database Management</span></Card.Title>
-            <Card.Text><span style={{fontSize: '11px'}}>
-            (HTML, CSS, Javascript, Bootsrap, React)
-            </span></Card.Text>
-          </Card.Body>
-        </Card>
-          </Col>
-        </Row>
-      </Container>
-    </div>
-    <div>
-    <Container style={{marginTop: 250}}>
-      <Row>
-        <Col>
-          <Card style={{ width: '10rem' , height: '5rem'}}>
-        <Card.Img variant="top" src={linux} />
-        <Card.Body>
-          <Card.Title> <span style={{fontSize: '14px', fontWeight: 'bold'}}>Linux Proficiency</span></Card.Title>
-          <Card.Text><span style={{fontSize: '11px'}}>
-          (Kali, Ubuntu etc.)
-          </span></Card.Text>
-        </Card.Body>
-      </Card>
-        </Col>
-      </Row>
-    </Container>
-    </div>
+    <div style={{marginTop: 85}}>
+    <h6 style={{textAlign: 'center', color: '#0047ab', fontWeight: 'bold'}}>Skills</h6>
+    <Row style={{marginLeft: '10px'}}>
+    <Col>
+    <div class="card" style={{marginTop: 30, width: '10rem', height: '17rem'}}>
+  <img src={WebDev} class="card-img-top" alt="..."/>
+  <div class="card-body">
+    <h6 class="card-title">Front-End Web Developer</h6>
+    <p class="card-text" style={{fontSize: '0.6rem'}}>(HTML, CSS, React, Bootstrap, Javascript)</p>
+  </div>
+  </div>
+  </Col>
+  <Col>
+    <div class="card" style={{marginTop: 30, width: '10rem', height: '17rem'}}>
+  <img src={Graphic} class="card-img-top" alt="..."/>
+  <div class="card-body">
+    <h6 class="card-title">Graphic Design</h6>
+    <p class="card-text" style={{fontSize: '0.6rem'}}>(Photoshop, Canva)</p>
+  </div>
+  </div>
+  </Col>
+  </Row>
+  <Row style={{marginLeft: '10px'}}>
+    <Col>
+    <div class="card" style={{marginTop: 30, width: '10rem', height: '17rem'}}>
+  <img src={linux} class="card-img-top" alt="..."/>
+  <div class="card-body">
+    <h6 class="card-title">Linux Proficiency</h6>
+    <p class="card-text" style={{fontSize: '0.6rem'}}>(Kali, Ubuntu etc.)</p>
+  </div>
+  </div>
+  </Col>
+  <Col>
+    <div class="card" style={{marginTop: 30, width: '10rem', height: '17rem'}}>
+  <img src={DB} class="card-img-top" alt="..."/>
+  <div class="card-body">
+    <h6 class="card-title">Database Management</h6>
+    <p class="card-text" style={{fontSize: '0.6rem'}}>(MySQL, Oracle, SQLServer etc.)</p>
+  </div>
+  </div>
+  </Col>
+  </Row>
+  <Row style={{marginLeft: '10px'}}>
+    <Col>
+    <div class="card" style={{marginTop: 30, width: '10rem', height: '14rem'}}>
+  <img src={UI} class="card-img-top" alt="..."/>
+  <div class="card-body">
+    <h6 class="card-title">UI/UX Design</h6>
+    <p class="card-text" style={{fontSize: '0.6rem'}}>(Figma)</p>
+  </div>
+  </div>
+  </Col>
+  </Row>
     </div>
   )
 }
