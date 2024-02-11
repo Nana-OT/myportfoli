@@ -11,7 +11,7 @@ export default function Hero() {
   return (
     <div>
       <Container>
-      <Row style={{marginTop: 90, color: '#000080'}}>
+      <Row style={{marginTop: 90, color: '#002265'}}>
         <Col>
           <div>
             Hi!<br/>
