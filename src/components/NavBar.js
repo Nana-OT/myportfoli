@@ -10,7 +10,7 @@ import Footer from './Footer';
 export default function NavBar() {
   return (
     <div style={{position: 'sticky'}}>  
-    <Navbar expand="lg" className="bg-body-tertiary" style={{boxShadow: '1px 3px 5px #0047ab',position: 'fixed', top: '0', width: '100%', zIndex: '1000'}}>
+    <Navbar expand="lg" className="bg-body-tertiary" style={{position: 'fixed', top: '0', width: '100%', zIndex: '1000'}}>
       <Container>
         <Navbar.Brand href="#home"><span className='centu' style={{color: '#0047ab'}}><b>Centu</b></span><span style={{color: '#4166f5'}}>rion</span></Navbar.Brand>
           <Nav style={{display: 'flex', flexDirection: 'row'}}>

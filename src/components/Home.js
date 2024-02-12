@@ -3,6 +3,7 @@ import Hero from './Hero'
 import Skills from './Skills'
 import Footer from './Footer'
 import NavBar from './NavBar'
+import Projects from './Projects'
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
         <NavBar/>
         <Hero/>
         <Skills/>
+        <Projects/>
         <Footer/>
     </div>
   )

@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import Skills from './components/Skills';
 import Footer from './components/Footer';
 import Home from './components/Home';
+
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 function App() {
   return (
