@@ -12,8 +12,8 @@ import Scan from '../assets/Scan & Order(WhatsApp).jpg'
 export default function Projects() {
  
     return (
-        <div>
-            <h5 style={{textAlign: 'center', marginTop: '4rem', color: '#14279B'}}>My Projects</h5>
+        <div id='projects'>
+            <h5 style={{textAlign: 'center', marginTop: '4rem', color: '#14279B'}}>My Design Projects</h5>
             <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" style={{marginTop:'2rem'}}>
             <div class="carousel-inner">
                 <div class="carousel-item">

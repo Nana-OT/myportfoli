@@ -12,6 +12,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" exact Component={Home}></Route>         
+          <Route path="/skills" exact Component={Skills}></Route>         
         </Routes>
         
       </Router>
