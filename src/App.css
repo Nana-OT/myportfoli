@@ -4,3 +4,39 @@ body{
 h5{
     font-size: 1.5rem;
 }
+  
+  @media (min-width: 992px) {
+    /* body{
+        background-image: url("/src/assets/");
+    } */
+    .row.desktop-layout {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .hero-image {
+        margin-left: 150px; /* Adjust margin as needed */
+      }
+      .hero-txt{
+        margin-left: 150px;
+        width: 200px;
+        word-wrap: break-word;
+      }
+    .skills-card{
+        z-index: -1;
+        display: flex;
+        flex-direction: row;
+        margin-left: 240px;
+        
+    }
+    .caro{
+        width: 800px;
+        margin-left: 220px;
+    }
+    .git{
+        margin-left: 370px;
+    }
+    .whatsapp{
+        margin-right: 230px;
+    }
+  }

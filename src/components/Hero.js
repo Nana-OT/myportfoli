@@ -11,9 +11,9 @@ export default function Hero() {
   return (
     <div>
       <Container>
-      <Row style={{marginTop: '6rem', color: '#002265'}}>
+      <Row className="row desktop-layout" style={{marginTop: '6rem', color: '#002265'}}>
         <Col>
-          <div>
+          <div className='hero-txt'>
             Hi!<br/>
             <h5><b>I'm Osei Tutu Karikari,
             a Bsc Computer Science Graduate</b></h5>
@@ -21,7 +21,7 @@ export default function Hero() {
           </div>
         </Col>
         <Col>
-          <Image src={pic} roundedCircle style={{ width: '140px', height: '180px' }}/>
+          <Image src={pic} className='hero-image' roundedCircle style={{ width: '10rem', height: '13rem' }}/>
         </Col>
       </Row>
     </Container>

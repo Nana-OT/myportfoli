@@ -14,8 +14,9 @@ export default function Projects() {
     return (
         <div id='projects'>
             <h5 style={{textAlign: 'center', marginTop: '4rem', color: '#14279B'}}>My Design Projects</h5>
+            <div className='caro'>
             <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" style={{marginTop:'2rem'}}>
-            <div class="carousel-inner">
+            <div class="carousel-inner"  style={{zIndex: '-1'}}>
                 <div class="carousel-item">
                 <img src={Zobo1} class="w-100" alt="..."/>
                 </div>
@@ -56,7 +57,8 @@ export default function Projects() {
                 <span class="visually-hidden">Next</span>
             </button>
             </div>
-        </div>   
+        </div>
+    </div>   
   )
 }
   

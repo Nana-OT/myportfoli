@@ -15,7 +15,8 @@ export default function Skills() {
     <div id='skills'>
       <div style={{marginTop: '4rem'}}>
       <h5 style={{textAlign: 'center', color: '#14279B'}}>Skills</h5>
-      <Row style={{marginLeft: '10px', zIndex: '0'}}>
+      <div className='skills-card'>
+      <Row style={{marginLeft: '10px', zIndex: '-1'}}>
       <Col>
       <div class="card" style={{marginTop: '2rem', width: '10rem', height: '14rem', boxShadow: '1px 3px 5px #0047ab', zIndex: '-1'}}>
     <img src={WebDev} style={{width: '7rem', marginLeft: '1.1rem'}} class="card-img-top" alt="..."/>
@@ -26,7 +27,7 @@ export default function Skills() {
     </div>
     </Col>
     <Col>
-      <div class="card" style={{marginTop: 30, width: '10rem', height: '14rem', boxShadow: '1px 3px 5px #0047ab', zIndex: '-1'}}>
+      <div class="card graphic" style={{marginTop: 30, width: '10rem', height: '14rem', boxShadow: '1px 3px 5px #0047ab', zIndex: '-1'}}>
     <img src={Graphic} style={{width: '7rem', marginLeft: '1.1rem'}} class="card-img-top" alt="..."/>
     <div class="card-body">
       <h6 class="card-title"><b>Graphic</b> Design</h6>
@@ -35,9 +36,9 @@ export default function Skills() {
     </div>
     </Col>
     </Row>
-    <Row style={{marginLeft: '10px'}}>
+    <Row style={{marginLeft: '10px'}} className='linux-db'>
       <Col>
-      <div class="card" style={{marginTop: 30, width: '10rem', height: '14rem', boxShadow: '1px 3px 5px #0047ab', zIndex: '-1'}}>
+      <div class="card linux" style={{marginTop: 30, width: '10rem', height: '14rem', boxShadow: '1px 3px 5px #0047ab', zIndex: '-1'}}>
     <img src={linux} style={{width: '7rem', marginLeft: '1.1rem'}} class="card-img-top" alt="..."/>
     <div class="card-body">
       <h6 class="card-title"><b>Linux</b> Proficiency</h6>
@@ -55,6 +56,7 @@ export default function Skills() {
     </div>
     </Col>
     </Row>
+    </div>
       </div>
   </div>
   )

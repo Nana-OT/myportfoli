@@ -12,8 +12,8 @@ export default function Footer() {
     <div id='contacts' style={{marginTop: 100}}>
         <h5 style={{textAlign: 'center'}}><span style={{color: '#000080'}}><b>Contact</b></span><span style={{color: '#032174'}}> Me</span></h5>
         <Container style={{marginTop: '25px', marginBottom: '5px', justifyContent: 'center'}}>
-            <Row>
-                <Col>
+            <Row className='socials'>
+                <Col className='git'>
                     <a href='https://github.com/Nana-OT'>
                     <img src={Git} style={{width: '70px'}}/>
                     </a>
@@ -23,7 +23,7 @@ export default function Footer() {
                     <img src={email} style={{width: '70px'}}/>
                     </a>
                 </Col>
-                <Col>
+                <Col className='whatsapp'>
                     <a href='https://wa.me/233598714871'>
                     <img src={whatsapp} style={{width: '70px'}}/>
                     </a>
