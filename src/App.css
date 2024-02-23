@@ -4,34 +4,44 @@ body{
 h5{
     font-size: 1.5rem;
 }
-  
+.hero-txt{
+    margin-left: 10px;
+}
   @media (min-width: 992px) {
-    /* body{
-        background-image: url("/src/assets/");
-    } */
+    .hero{
+        background-image: url("/src/assets/backg.jpg");
+        background-size: cover;
+        top: 0;
+        padding-top: 3rem;
+        padding-bottom: 5rem;
+    }
     .row.desktop-layout {
         display: flex;
         flex-direction: row;
         align-items: center;
     }
     .hero-image {
-        margin-left: 150px; /* Adjust margin as needed */
+        width: 12rem;
+        margin-left: 50px;
+        
       }
       .hero-txt{
         margin-left: 150px;
-        width: 200px;
+        width: 300px;
         word-wrap: break-word;
       }
     .skills-card{
         z-index: -1;
         display: flex;
         flex-direction: row;
-        margin-left: 240px;
-        
+        margin-left: 240px;    
     }
     .caro{
         width: 800px;
         margin-left: 220px;
+    }
+    .footer{ 
+        background-color: rgb(224, 243, 244);   
     }
     .git{
         margin-left: 370px;

@@ -12,7 +12,7 @@ import Container from 'react-bootstrap/Container';
 
 export default function Skills() {
   return (
-    <div id='skills'>
+    <div id='skills' className='skills-sec'>
       <div style={{marginTop: '4rem'}}>
       <h5 style={{textAlign: 'center', color: '#14279B'}}>Skills</h5>
       <div className='skills-card'>

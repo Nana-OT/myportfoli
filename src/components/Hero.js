@@ -9,9 +9,9 @@ import pic from '../assets/img2.jpg'
 
 export default function Hero() {
   return (
-    <div>
+    <div className='hero'>
       <Container>
-      <Row className="row desktop-layout" style={{marginTop: '6rem', color: '#002265'}}>
+      <Row className="row desktop-layout" style={{paddingTop: '6rem', color: '#002265'}}>
         <Col>
           <div className='hero-txt'>
             Hi!<br/>
