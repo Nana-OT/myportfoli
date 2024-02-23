@@ -4,12 +4,13 @@ import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
-import pic from '../assets/img2.jpg'
+import pic from '../assets/img2.jpg';
+import bg from '../assets/backg.jpg'
 
 
 export default function Hero() {
   return (
-    <div className='hero'>
+    <div className='hero' style={{backgroundImage: `URL(${bg})`, paddingBottom: '2.5rem'}}>
       <Container>
       <Row className="row desktop-layout" style={{paddingTop: '6rem', color: '#002265'}}>
         <Col>
