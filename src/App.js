@@ -6,12 +6,12 @@ import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 function App() {
   return (
     <div>
+    <Home/>
       <Router>
         <Routes>
           <Route path="/" exact Component={Home}></Route>         
           <Route path="/skills" exact Component={Skills}></Route>         
         </Routes>
-        
       </Router>
     </div>
   );
