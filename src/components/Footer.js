@@ -9,7 +9,7 @@ import wave from '../assets/footer.png'
 
 export default function Footer() {
   return (
-    <div id='contacts' className='footer' style={{marginTop: 100, backgroundColor: 'rgb(224, 243, 244)', paddingTop: '2rem'}}>
+    <div id='contacts' className='footer bg-body-tertiary p-5' style={{marginTop: 100}}>
         <h5 style={{textAlign: 'center'}}><span style={{color: '#000080'}}><b>Contact</b></span><span style={{color: '#032174'}}> Me</span></h5>
         <Container style={{marginTop: '25px', marginBottom: '5px', justifyContent: 'center'}}>
             <Row className='socials'>

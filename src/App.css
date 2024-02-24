@@ -36,17 +36,35 @@ h5{
         flex-direction: row;
         margin-left: 240px;    
     }
-    .caro{
+    /* .caro{
         width: 800px;
-        margin-left: 220px;
-    }
-    .footer{ 
-        background-color: rgb(224, 243, 244);   
-    }
+        margin-left: 250px;
+    } */
     .git{
         margin-left: 370px;
     }
     .whatsapp{
         margin-right: 230px;
     }
+    .row-cols-3 > .col {
+        flex: 0 0 33%;
+        max-width: 33%;
+        display: flex;
+        justify-content: center; /* Center the image horizontally */
+        align-items: center;
+        padding-top: 10px;
+    } 
+    .gallery img:hover {
+        opacity: 0.8; /* Add hover effect */
+        cursor: pointer; /* Indicate potential interaction */
+    }
+    .row-cols-3 > .col img {
+        transition: transform 0.3s ease-in-out;
+    }
+    .row-cols-3 > .col img:hover {
+        transform: scale(1.1); /* Adjust the scale factor as needed */
+        cursor: pointer;
+        opacity: 0.9;
+    }  
+    /* Box Shadow, Change carousel to gallery, bg-tertiary for body */
   }

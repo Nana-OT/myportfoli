@@ -23,8 +23,8 @@ export default function NavBar() {
 
 
   return (
-    <div style={{position: 'sticky'}}>  
-    <Navbar expand="lg" className="bg-body-tertiary nav" style={{position: 'fixed', top: '0', width: '100%', zIndex: '1000'}}>
+    <div style={{position: 'sticky'}} className='z-3'>  
+    <Navbar expand="lg" className="bg-body-tertiary nav" style={{position: 'fixed', top: '0', width: '100%'}}>
       <Container style={{paddingBottom: '0'}}>
         <Navbar.Brand href="#home"><span className='centu' style={{color: '#0047ab'}}><b>Centu</b></span><span style={{color: '#4166f5'}}>rion</span></Navbar.Brand>
           <Nav style={{display: 'flex', flexDirection: 'row', overflow: 'auto'}}>
