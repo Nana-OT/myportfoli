@@ -1,14 +1,10 @@
 import React from 'react'
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
 import WebDev from '../assets/Web Dev.png'
 import Graphic from '../assets/Graphic Design Illustration.png'
 import DB from '../assets/DBmgmt.png'
-import UI from '../assets/ui ux design.png'
 import linux from '../assets/linux.png'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Container from 'react-bootstrap/Container';
 import '../App.css'
 
 export default function Skills() {
