@@ -9,11 +9,11 @@ import '../App.css'
 
 export default function Skills() {
   return (
-    <div id='skills' className='skills-sec bg-body-tertiary z-1 p-5'>
+    <div id='skills' className='skills-sec bg-body-tertiary z-1 p-2'>
       <div style={{marginTop: '2rem'}}>
       <h5 style={{textAlign: 'center', color: '#14279B'}}>Skills</h5>
       <div className='skills-card'>
-      <Row style={{marginLeft: '10px'}}>
+      <Row style={{marginLeft: '8px'}}>
       <Col>
       <div class="card" style={{marginTop: '2rem', width: '10rem', height: '14rem', boxShadow: '1px 3px 5px #b9bbb6'}}>
     <img src={WebDev} style={{width: '7rem', marginLeft: '1.1rem'}} class="card-img-top" alt="..."/>
@@ -33,7 +33,7 @@ export default function Skills() {
     </div>
     </Col>
     </Row>
-    <Row style={{marginLeft: '10px'}} className='linux-db'>
+    <Row style={{marginLeft: '8px'}} className='linux-db'>
       <Col>
       <div class="card linux" style={{marginTop: 30, width: '10rem', height: '14rem', boxShadow: '1px 3px 5px #b9bbb6'}}>
     <img src={linux} style={{width: '7rem', marginLeft: '1.1rem'}} class="card-img-top" alt="..."/>
