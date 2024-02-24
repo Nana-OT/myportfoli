@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/myportfoli/static/css/main.3d6e90c7.css",
+    "main.js": "/myportfoli/static/js/main.9f537959.js",
+    "static/js/787.7bcf9a52.chunk.js": "/myportfoli/static/js/787.7bcf9a52.chunk.js",
+    "static/media/Scan & Order(WhatsApp).jpg": "/myportfoli/static/media/Scan & Order(WhatsApp).9b062f6e29082c43283a.jpg",
+    "static/media/Vital Life 5- Design.jpg": "/myportfoli/static/media/Vital Life 5- Design.aa20eb8ebc2324f35f55.jpg",
+    "static/media/backg.jpg": "/myportfoli/static/media/backg.1087da06f0b393974c3f.jpg",
+    "static/media/Vital Life 10- Design.jpg": "/myportfoli/static/media/Vital Life 10- Design.e303cf20367468fa3a84.jpg",
+    "static/media/Zobo 10-Design.jpg": "/myportfoli/static/media/Zobo 10-Design.a1a50f24fc616c55fe54.jpg",
+    "static/media/Zobo 1-Design.jpg": "/myportfoli/static/media/Zobo 1-Design.89245895c34332837b67.jpg",
+    "static/media/Vital Life 1- Design.jpg": "/myportfoli/static/media/Vital Life 1- Design.254e088ac989790c73e0.jpg",
+    "static/media/Zobo 3-Design.jpg": "/myportfoli/static/media/Zobo 3-Design.596d039922de660c050a.jpg",
+    "static/media/Zobo 15-Design.jpg": "/myportfoli/static/media/Zobo 15-Design.f6540cd25f79a45a72c4.jpg",
+    "static/media/Zobo 2-Design.jpg": "/myportfoli/static/media/Zobo 2-Design.e39f3d7d722bf2a70f2e.jpg",
+    "static/media/img2.jpg": "/myportfoli/static/media/img2.51b2f169237ef748a7a0.jpg",
+    "static/media/Graphic Design Illustration.png": "/myportfoli/static/media/Graphic Design Illustration.9abbb4b244e40e4efed2.png",
+    "static/media/linux.png": "/myportfoli/static/media/linux.a5f5ed1087f4d1127aa7.png",
+    "static/media/DBmgmt.png": "/myportfoli/static/media/DBmgmt.b117aaececa50c25bb23.png",
+    "static/media/Web Dev.png": "/myportfoli/static/media/Web Dev.9ebd0bc9ade73c4deb1b.png",
+    "static/media/footer.png": "/myportfoli/static/media/footer.0de007929de63386afc0.png",
+    "index.html": "/myportfoli/index.html",
+    "main.3d6e90c7.css.map": "/myportfoli/static/css/main.3d6e90c7.css.map",
+    "main.9f537959.js.map": "/myportfoli/static/js/main.9f537959.js.map",
+    "787.7bcf9a52.chunk.js.map": "/myportfoli/static/js/787.7bcf9a52.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d6e90c7.css",
+    "static/js/main.9f537959.js"
+  ]
+}
