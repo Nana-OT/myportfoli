@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/myportfoli/static/css/main.3d6e90c7.css",
-    "main.js": "/myportfoli/static/js/main.9f537959.js",
+    "main.js": "/myportfoli/static/js/main.748f4f8a.js",
     "static/js/787.7bcf9a52.chunk.js": "/myportfoli/static/js/787.7bcf9a52.chunk.js",
     "static/media/Scan & Order(WhatsApp).jpg": "/myportfoli/static/media/Scan & Order(WhatsApp).9b062f6e29082c43283a.jpg",
     "static/media/Vital Life 5- Design.jpg": "/myportfoli/static/media/Vital Life 5- Design.aa20eb8ebc2324f35f55.jpg",
@@ -18,14 +18,13 @@
     "static/media/linux.png": "/myportfoli/static/media/linux.a5f5ed1087f4d1127aa7.png",
     "static/media/DBmgmt.png": "/myportfoli/static/media/DBmgmt.b117aaececa50c25bb23.png",
     "static/media/Web Dev.png": "/myportfoli/static/media/Web Dev.9ebd0bc9ade73c4deb1b.png",
-    "static/media/footer.png": "/myportfoli/static/media/footer.0de007929de63386afc0.png",
     "index.html": "/myportfoli/index.html",
     "main.3d6e90c7.css.map": "/myportfoli/static/css/main.3d6e90c7.css.map",
-    "main.9f537959.js.map": "/myportfoli/static/js/main.9f537959.js.map",
+    "main.748f4f8a.js.map": "/myportfoli/static/js/main.748f4f8a.js.map",
     "787.7bcf9a52.chunk.js.map": "/myportfoli/static/js/787.7bcf9a52.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3d6e90c7.css",
-    "static/js/main.9f537959.js"
+    "static/js/main.748f4f8a.js"
   ]
 }
